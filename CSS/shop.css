@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  margin-top: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+.icons {
+  width: 2rem;
+}
+.container {
+  height: fit-content;
+  display: grid;
+  grid-template: repeat(6, 1rem);
+  background-color: lightgray;
+  align-items: center;
+}
+.menu_buttons {
+  color: white;
+  font-size: medium;
+  text-align: left;
+  text-indent: 5px;
+  padding: 1rem;
+  background-color: gray;
+}
+.menu_buttons:hover {
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+    grid-template: repeat(1, 3rem) / repeat(6, 1fr);
+    text-align: center;
+  }
+  .menu_buttons {
+    justify-content: end;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    text-indent: 5px;
+    padding: 1rem;
+    background-color: gray;
+  }
+  .menu_space{
+    padding: 5rem 0;
+  }
+  .menu_buttons:hover {
+    color: white;
+    transform: 0;
+    transition: 0;
+  }
+}
+/* Hero */
+.hero--container {
+  height: 80vh;
+}
+.hero {
+  object-fit: cover;
+  width: 100vw;
+  height: 80vh;
+}
+.hero--font {
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+.hero--text {
+  font-size: xx-large;
+  position: relative;
+  color: white;
+  bottom: 25rem;
+}
+.hero--heading {
+  columns: white;
+  font-size: 40pt;
+  position: relative;
+  color: white;
+  bottom: 25rem;
+}
+.animate__fadeInUp {
+  animation-delay: 1s;
+}
+/*Mini Cards*/
+.minicard--container {
+    border: 1px solid  black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 50vh;
+    align-content: center;
+    
+  }
+  .minicard {
+    border: 1px solid  black;
+    object-fit: cover;
+    height: 20vh;
+    display: inline-block;
+    margin-right: 10%;
+  }
+  .img--minicards{
+    object-fit: contain;
+  }
