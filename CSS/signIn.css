@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: url(../Images/mountain.webp);
+  background: url(/Images/mountain.webp);
   background-size: cover;
   height: 100vh;
   border: 1px solid black;
