@@ -1,1 +1,9 @@
-Project-DaMa.code-workspace
+{
+  "folders": [
+	{
+		"name": "Project-DaMa",
+		"path": "."
+	}
+],
+  "settings": {}
+}
