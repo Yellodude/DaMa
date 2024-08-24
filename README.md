@@ -1,1 +1,1 @@
-# Hello there! Welcome to my personal website project, DaMa!
+# Hello there! Welcome to my personal web project, DaMa!
